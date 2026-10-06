@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 車機色板（同 Theme.java 嘅 token 一致；唔改色只改一處：Theme.java + 呢個檔） -->
+<resources>
+    <color name="cp_bg">#FF0E0F12</color>
+    <color name="cp_bg2">#FF141821</color>
+    <color name="cp_surface">#FF171A20</color>
+    <color name="cp_surface2">#FF1F232B</color>
+    <color name="cp_stroke">#FF2C3138</color>
+    <color name="cp_text">#FFF4F6F8</color>
+    <color name="cp_text_dim">#FFA9AEB6</color>
+    <color name="cp_accent">#FF4DA3FF</color>
+    <color name="cp_accent_press">#FF3D8AD9</color>
+    <color name="cp_on_accent">#FF07131F</color>
+    <color name="cp_danger">#FFE5484D</color>
+    <color name="cp_ok">#FF3DD68C</color>
+</resources>
