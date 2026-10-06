@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- v2 車機風格：Material 3 深色 + 我哋自己嘅 accent（幼邊框分格） -->
+    <style name="Theme.CarPiano" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/cp_accent</item>
+        <item name="colorOnPrimary">@color/cp_on_accent</item>
+        <item name="colorPrimaryContainer">@color/cp_accent</item>
+        <item name="colorOnPrimaryContainer">@color/cp_on_accent</item>
+        <item name="colorSecondary">@color/cp_accent</item>
+        <item name="colorOnSecondary">@color/cp_on_accent</item>
+        <item name="colorError">@color/cp_danger</item>
+        <item name="colorOnError">#FFFFFFFF</item>
+        <item name="colorSurface">@color/cp_surface</item>
+        <item name="colorOnSurface">@color/cp_text</item>
+        <item name="colorSurfaceVariant">@color/cp_surface2</item>
+        <item name="colorOnSurfaceVariant">@color/cp_text_dim</item>
+        <item name="colorOutline">@color/cp_stroke</item>
+        <item name="colorOutlineVariant">@color/cp_stroke</item>
+        <item name="android:colorBackground">@color/cp_bg</item>
+        <item name="colorOnBackground">@color/cp_text</item>
+        <item name="android:statusBarColor">@color/cp_bg</item>
+        <item name="android:navigationBarColor">@color/cp_bg</item>
+        <item name="android:windowBackground">@color/cp_bg</item>
+        <item name="materialButtonStyle">@style/Cp.Button</item>
+        <item name="materialCardViewStyle">@style/Cp.Card</item>
+        <item name="sliderStyle">@style/Cp.Slider</item>
+    </style>
+
+    <!-- 主按鈕：accent 實心 + 12dp 圓角 + 水波紋 -->
+    <style name="Cp.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/cp_accent</item>
+        <item name="android:textColor">@color/cp_on_accent</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <!-- 卡片：16dp 圓角 + 1dp 幼邊框 -->
+    <style name="Cp.Card" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/cp_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">3dp</item>
+        <item name="strokeColor">@color/cp_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Cp.Slider" parent="Widget.Material3.Slider">
+        <item name="thumbColor">@color/cp_accent</item>
+        <item name="trackColorActive">@color/cp_accent</item>
+        <item name="trackColorInactive">@color/cp_surface2</item>
+        <item name="haloColor">#334DA3FF</item>
+    </style>
+</resources>
